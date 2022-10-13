@@ -1,10 +1,14 @@
-# File: Breakout.py
+######################################################################
+# Name:
+# Collaborators (if any):
+# List of extensions made (if any):
+######################################################################
 
 """
 This program (once you have finished it) implements the Breakout game
 """
 
-from pgl import GWindow, GOval, GRect, GState
+from pgl import GWindow, GOval, GRect
 import random
 
 # Constants
@@ -30,7 +34,7 @@ BRICK_HEIGHT = BRICK_WIDTH / BRICK_ASPECT_RATIO
 PADDLE_WIDTH = BRICK_WIDTH / BRICK_TO_PADDLE_RATIO
 PADDLE_HEIGHT = BRICK_HEIGHT / BRICK_TO_PADDLE_RATIO
 PADDLE_Y = (1 - BOTTOM_FRACTION) * GWINDOW_HEIGHT - PADDLE_HEIGHT
-BALL_SIZE = BRICK_WIDTH / BRICK_TO_BALL_RATIO
+BALL_DIAMETER = BRICK_WIDTH / BRICK_TO_BALL_RATIO
 
 
 # Function: breakout
@@ -38,11 +42,9 @@ def breakout():
     """The main program for the Breakout game."""
 
     gw = GWindow(GWINDOW_WIDTH, GWINDOW_HEIGHT)
-    gs = GState()
 
     # You fill in the rest of this function along with any additional
     # helper and callback functions you need
-
 
 
 
